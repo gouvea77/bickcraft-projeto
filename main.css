@@ -1,0 +1,31 @@
+main {
+ background-color: var(--cor-12);
+ color: var(--cor-1);
+ height: 580px;
+}
+
+
+
+.divisao-intro {
+  display: flex;
+  height: 500px;
+  align-content: end;
+  flex-wrap: wrap;
+  padding-bottom: 32px;
+  position: relative;
+}
+
+.img-intro {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 560px;
+  height: 700px;
+}
+
+.img-intro img{
+  object-fit: cover;
+  height: 100%;
+ 
+}
+

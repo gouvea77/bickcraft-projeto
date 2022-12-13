@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  text-transform: uppercase;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  color: var(--cor-p5);
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+.ponto-colorido {
+  color: var(--cor-p1);
+}
+
+
+.pad-bot-8 {
+  padding-bottom: 8px;
+}
+
+.pad-bot-16 {
+  padding-bottom: 16px;
+}
+
+.pad-bot-32 {
+  padding-bottom: 32px;
+}
+
+.pad-bot-64 {
+  padding-bottom: 64px;
+}
+
+
+.pad-top-8 {
+  padding-top: 8px
+}
+
+.pad-top-16 {
+  padding-top: 16px
+}
+
+.pad-top-32 {
+  padding-top: 32px
+}
+
+.pad-top-64 {
+  padding-top: 64px
+}
+
+.pad-top-160 {
+  padding-top: 160px;
+}
+
+.pad-left-32 {
+  padding-left: 32px;
+}
+
+.pad-left-64 {
+  padding-left: 64px;
+}
+
+.pad-left-80 {
+  padding-left: 80px;
+}
+
+
+.pad-right-32 {
+  padding-right: 32px;
+}
+
+.pad-right-64 {
+  padding-right: 64px;
+}

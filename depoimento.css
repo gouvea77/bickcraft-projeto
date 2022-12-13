@@ -1,0 +1,51 @@
+.depoimento {
+  display: flex;
+  max-height: 520px;
+  background-color: var(--cor-p1);
+  width: 100%;
+}
+
+.foto-depoimento {
+  grid-row: 1/3;
+  max-height: 520px;
+  width: 50%;
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+.img-depoimento{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 520px;
+}
+
+.parte-depoimento {
+  width: 50%;
+  margin-bottom: 1em;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content: flex-end;
+  padding-right: 64px;
+ 
+}
+
+.paragrafo-depoimento {
+  max-width: 700px;
+  height: 200px;
+}
+
+.nome-depoimento {
+  display: flex;
+  align-self: flex-end;
+}
+
+.paragrafo-depoimento, .nome-depoimento { 
+  display: inline-block;
+
+}

@@ -1,0 +1,60 @@
+footer {
+  background-color: var(--cor-12);
+  color: var(--cor-1);
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: auto auto;
+  grid-column-gap: 1px;
+}
+
+.logo-rodape {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.divisao-contato {
+  grid-column: 2;
+  grid-row: 1;
+  width: 450px;
+}
+
+.lista-footer {
+  display: block;
+}
+
+.lista-footer li {
+  padding-bottom: 8px;
+}
+
+.lista-redes-sociais li {
+  margin-right: 32px;
+}
+
+.copyright {
+  grid-row: 2;
+  grid-column: 1/-1;
+  display: block;
+}
+
+.detalhe::before {
+  content: "";
+  display: block;
+  max-width: 360px;
+  background: var(--cor-11);
+  height: 2px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.detalhe2::after {
+  content: "";
+  display: block;
+  max-width: 360px;
+  background: var(--cor-11);
+  height: 2px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

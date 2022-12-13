@@ -1,0 +1,27 @@
+header {
+  background-color: var(--cor-12);
+  padding: 32px 0;
+  position: relative;
+  
+}
+
+.itens-nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.lista-nav li {
+  color: var(--cor-1);
+  padding-right: 40px;
+  
+}
+
+.lista-nav li:last-child {
+  padding-right: 0px;
+}
+

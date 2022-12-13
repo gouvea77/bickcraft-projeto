@@ -1,0 +1,17 @@
+@import "global/global.css";
+
+/* Header e Footer */
+@import "global/header.css";
+@import "footer.css";
+
+/* Main e seções*/
+@import "main.css";
+@import "escolha-bicicleta.css";
+@import "descricao-tecnologia.css";
+@import "parceiros.css";
+@import "depoimento.css";
+@import "seguros.css";
+
+/* Utilidades */
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";

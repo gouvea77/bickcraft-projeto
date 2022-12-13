@@ -1,0 +1,56 @@
+.escolha-bicicleta {
+  position: relative;
+  height: 960px;
+  display: flex;
+  flex-direction: column;
+  display: block;
+  
+}
+
+.container-section-1 {
+  display: block;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.bicicletas  {
+  justify-content: space-between;
+}
+
+.bicicletas li {
+  display: flex;
+ flex-direction: column;
+ 
+}
+
+.bicicletas img {
+  height: 500px;
+  width : 440px;
+  
+}
+
+.nome-bicicleta, .preco {
+ vertical-align: bottom;
+  
+}
+
+
+.bicicletas li h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  margin-right: 8px;
+  height: 8px;
+  background: #ffbb00;
+  transition: width 0.2s;
+}
+
+.bicicletas li h3::before:hover {
+  content: "";
+  display: inline-block;
+  width: 116px;
+  margin-right: 8px;
+  height: 8px;
+  background: #ffbb00;
+  transition: width 0.2s;
+}

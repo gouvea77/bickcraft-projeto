@@ -1,0 +1,90 @@
+.seguros {
+  background-color: var(--cor-11);
+  height: 790px;
+  color: white;
+  
+  
+}
+
+.container-seguros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  
+  
+}
+
+.titulo-h2 {
+  color: white;
+  grid-column: 1/-1;
+}
+
+.plano-prata , .plano-ouro {
+  background-color: var(--cor-12);
+}
+
+.plano-prata {
+  height: 350px;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-row: auto auto auto;
+  
+}
+
+.plano-ouro {
+  height: 460px;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-row: auto auto auto;
+}
+.titulo-plano-ouro, .titulo-plano-prata {
+  grid-column: 1;
+}
+
+
+.preco-plano, .periodo-plano {
+  grid-column: 2;
+  text-align: right;
+
+}
+
+
+.lista-vantagens {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1;
+  grid-row: 2;
+  align-items: initial;
+  position: relative;
+ 
+  
+}
+
+.lista-vantagens li {
+  margin-bottom: 16px;
+}
+
+.lista-vantagens li::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  width: 13px;
+  height: 9px;
+  background-image: url(img/icones/lista.svg);
+  margin-top: 8px;
+}
+
+
+
+.btn-plano {
+  grid-row: 3;
+  height: 30%;
+}
+
+
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}

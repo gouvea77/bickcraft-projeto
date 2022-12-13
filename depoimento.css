@@ -40,6 +40,24 @@
   height: 200px;
 }
 
+.paragrafo-depoimento::before {
+  content: "“";
+    left: -50px;
+    top: -20px;
+}
+
+.paragrafo-depoimento::after {
+  content: "”";
+
+}
+
+.paragrafo-depoimento::before, .paragrafo-depoimento::after {
+  color: var(--cor-p2);
+  font-size: 5rem;
+  z-index: -1;
+  position: absolute;
+}
+
 .nome-depoimento {
   display: flex;
   align-self: flex-end;
@@ -47,5 +65,13 @@
 
 .paragrafo-depoimento, .nome-depoimento { 
   display: inline-block;
+  max-width: 32ch;
+    font-family: Merriweather;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 1em;
+    position: relative;
+    z-index: 0;
+    display: block;
 
 }

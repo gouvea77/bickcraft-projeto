@@ -17,9 +17,26 @@ ul {
 
 .lista-nav li {
   color: var(--cor-1);
-  padding-right: 40px;
+  margin-right: 40px;
+  position: relative;
   
 }
+
+.lista-nav a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #ffffff;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.lista-nav a:hover:after {
+  width: 100%;
+}
+
 
 .lista-nav li:last-child {
   padding-right: 0px;

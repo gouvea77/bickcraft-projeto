@@ -39,6 +39,10 @@
   margin-bottom: 80px;
 }
 
+.link a:hover {
+  color: linear-gradient(#DEDEDE, #F7F7F7);
+}
+
 .link::after {
   display: block;
   content: "";

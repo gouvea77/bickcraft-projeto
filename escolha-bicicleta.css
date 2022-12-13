@@ -4,13 +4,16 @@
   display: flex;
   flex-direction: column;
   display: block;
-  
 }
 
 .container-section-1 {
   display: block;
   margin: 0 auto;
   max-width: 1400px;
+}
+
+.container-section-1 h2{
+  color: black !important;
 }
 
 .bicicletas  {
@@ -45,10 +48,10 @@
   transition: width 0.2s;
 }
 
-.bicicletas li h3::before:hover {
+.bicicletas li h3:hover::before {
   content: "";
   display: inline-block;
-  width: 116px;
+  width: 32px;
   margin-right: 8px;
   height: 8px;
   background: #ffbb00;

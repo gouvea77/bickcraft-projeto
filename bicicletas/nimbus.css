@@ -1,0 +1,172 @@
+#nimbus .subtitulo{
+  padding-bottom: 0px;
+}
+
+#nimbus .titulo-h2{
+  padding-top: 0px;
+}
+
+#nimbus main {
+  background-color: var(--cor-11);
+}
+
+article {
+  background-color: var(--cor-11);
+  color: var(--cor-5);
+}
+
+.imagens-bicicletas {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 480px auto;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.bicicleta-1 {
+  grid-column: 1/-1;
+}
+
+
+
+.todas-informacoes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto; 
+}
+
+.descricao-bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 120px;
+  height: 200px;
+}
+
+.descricao-bicicleta p {
+  grid-column: 1/-1;
+}
+
+.lista-nimbus {
+  display: inline-block;
+}
+
+.lista-nimbus li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.lista-nimbus li:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  margin-right: 8px;
+  height: 16px;
+  background: url("/img/icones/estoque.svg");
+}
+
+.lista-nimbus li:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  margin-right: 8px;
+  height: 16px;
+  background: url("/img/icones/entrega.svg");
+}
+
+.lista-tecnica  {
+  color: var(--cor-4);
+}
+
+.lista-tecnica p:nth-child(2) {
+  color: var(--cor-6);
+}
+
+.container-informacoes {
+  margin-top: 60px;
+}
+
+.container-informacoes h3, .ficha-tecnica h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+.informacoes {
+  background-color: var(--cor-12);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 220px 220px;
+  gap: 60px;
+  border-radius: 4px;
+}
+
+.informacoes h4, .informacoes img {
+  padding-bottom: 8px;
+}
+
+.ficha-tecnica {
+  margin-top: 60px;
+  grid-row: 3;
+  margin-bottom: 40px;
+}
+
+.lista-tecnica {
+  background-color: var(--cor-12);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.lista-tecnica li {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.escolha-a-sua-bg {
+  background-color: var(--cor-0);
+}
+
+.escolha-a-sua {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.choose-bk {
+  display: flex;
+  gap: 20px;
+  color: var(--cor-11);
+  margin-bottom: 160px;
+}
+
+.choose-bk h4::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  margin-right: 8px;
+  height: 8px;
+  background: #ffbb00;
+  transition: width 0.2s;
+}
+
+.pedale-seguro-bg  {
+  background: linear-gradient( to bottom, white 15%, black 15%);
+  position: relative;  
+}
+
+.pedale-seguro{
+  display: flex;
+}

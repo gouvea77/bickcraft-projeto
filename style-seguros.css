@@ -1,0 +1,94 @@
+.intro-termos, .titulo-interno-bg {
+  background-color: var(--cor-11);
+}
+
+#seguros .container-seguros {
+  padding-top: 128px;
+}
+
+
+.vantagens-bg {
+  background-color: var(--cor-12);
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.lista-vantagens-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+
+.perguntas {
+  display: flex;
+  flex-direction: column;
+}
+
+.perguntas h2  {
+  color: var(--cor-12);
+}
+
+.itens-perguntas {
+  padding: 20px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+.aparecer-resposta {
+  background-color: black;
+}
+
+.itens-perguntas:nth-child(odd) {
+  background-color: var(--cor-1);
+}
+
+
+.lista-perguntas {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-pergunta::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  margin-right: 8px;
+  height: 8px;
+  background: #ffbb00;
+  transition: width 0.2s;
+}
+
+.titulo-pergunta {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+}
+
+
+
+.titulo-pergunta::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  margin-right: 8px;
+  height: 6px;
+  background: url("/img/icones/seta-abrir.svg");
+  transition: 0.3s;
+}
+
+.titulo-pergunta:hover::after {
+  transform: rotate(180deg);
+}
+
+dd {
+  padding-left: 29px;
+  max-width: 80ch;
+}

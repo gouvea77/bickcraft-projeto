@@ -33,12 +33,17 @@ ul {
   position: absolute;
 }
 
-.lista-nav a:hover:after {
+.lista-nav a:hover::after, a.ativo::after{
   width: 100%;
 }
+
+
 
 
 .lista-nav li:last-child {
   padding-right: 0px;
 }
 
+.ativo:after {
+  width: 100%;
+}

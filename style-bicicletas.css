@@ -1,0 +1,156 @@
+
+
+
+.bicicleta {
+  display: grid;
+  grid-template-columns: 560px 560px;
+  grid-row: 1fr;
+  align-self: center;
+  padding-top: 7%;
+
+}
+
+.nome-bicicleta::before {
+  content: "";
+    display: inline-block;
+    width: 12px;
+    margin-right: 8px;
+    height: 8px;
+    background: #ffbb00;
+    transition: width 0.2s;
+}
+
+.nome-bicicleta:hover::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  margin-right: 8px;
+  height: 8px;
+  background: #ffbb00;
+  transition: width 0.2s;
+}
+
+.bikes {
+  position:relative;
+}
+
+.bg-detalhe {
+  background:  linear-gradient( to right, white 35%, black 35%);
+  color: #B2B2B2;
+  display: grid;
+}
+
+
+
+.bg-detalhe h3 {
+  color: white;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column !important;
+  position: relative;
+  height: 500px;
+ 
+}
+
+
+.div-imagem {
+  display: grid;
+}
+
+.div-imagem img {
+  grid-area: 1/1;
+}
+
+.div-imagem span {
+  color: white;
+  background-color: black;
+  grid-area: 1/1;
+  place-self: start end;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px 0px 0px 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+
+.foto-bicicleta{
+  width: 560px;
+  height: 340px;
+  object-fit: cover;
+}
+
+.nome-bicicleta {
+  display: grid;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.descricao-bicicleta { 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  grid-column: 1/3;
+}
+
+.separacao-descricao {
+  padding-left: 25px;
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 3fr;
+  
+}
+
+.lista {
+  display: block;
+  grid-column-start: 1;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  grid-column: 1;
+  place-self: end start;
+}
+
+
+.lista li {
+  vertical-align: bottom;
+  margin-top:10px ;
+  display: flex;
+}
+
+.lista img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.botao {
+  grid-column: 2;
+  place-self: end;
+}
+
+.seta::after {
+  content: "";
+   display: inline-block; 
+   width: 18px;
+   height: 10px;
+   margin-left: 12px;
+   background: url("/img/icones/seta.svg");
+   transition: transform 0.2s;
+}
+
+.seta:hover::after {
+  transform: translateX(4px);
+ 
+}

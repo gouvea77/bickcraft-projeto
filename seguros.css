@@ -1,8 +1,8 @@
 .seguros {
   background-color: var(--cor-11);
-  height: 790px;
+  height: auto;
   color: white;
-  
+
   
 }
 
@@ -15,7 +15,7 @@
 }
 
 .titulo-h2 {
-  color: white;
+  color: black;
   grid-column: 1/-1;
 }
 
@@ -72,7 +72,7 @@
   left: -20px;
   width: 13px;
   height: 9px;
-  background-image: url(img/icones/lista.svg);
+  background-image: url("img/icones/lista.svg");
   margin-top: 8px;
 }
 

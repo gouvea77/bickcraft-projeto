@@ -43,8 +43,15 @@ img {
   max-width: 1150px;
   display: flex;
   justify-content: space-between;
- 
 }
+
+.container-2 {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .btn {
   display: inline-block;
@@ -58,6 +65,7 @@ img {
   max-width: max-content;
   border: none;
   cursor: pointer;
+  height: 22px;
 }
 
 .btn:hover {
@@ -85,6 +93,10 @@ img {
   padding-bottom: 64px;
 }
 
+.pad-bot-128 {
+  padding-bottom: 128px;
+}
+
 
 .pad-top-8 {
   padding-top: 8px
@@ -102,8 +114,20 @@ img {
   padding-top: 64px
 }
 
+.pad-top-128 {
+  padding-top: 128px;
+}
+
 .pad-top-160 {
   padding-top: 160px;
+}
+
+.pad-left-8 {
+  padding-left: 8px;
+}
+
+.pad-left-16 {
+  padding-left: 16px;
 }
 
 .pad-left-32 {

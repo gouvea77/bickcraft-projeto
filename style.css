@@ -15,3 +15,23 @@
 /* Utilidades */
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+
+
+/*CSS Termos e Condições*/
+@import "style-termos.css";
+
+/*CSS Bicicletas*/
+@import "style-bicicletas.css";
+
+/*CSS Seguros*/
+@import "style-seguros.css";
+
+/*CSS SNimbus*/
+@import "bicicletas/nimbus.css";
+
+/*CSS contato*/
+@import "/style-contato.css";
+
+/*CSS Orçamento*/
+@import "/style.orcamento.css";
+
